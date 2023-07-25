@@ -23,10 +23,6 @@ public class BilanganPositif {
 
     public static boolean cekBilanganPositif(int bilangan) {
         // Memeriksa apakah bilangan bulat positif habis dibagi 3 dan 5 secara bersamaan atau tidak
-        if ((bilangan > 0) && ((bilangan % 3 == 0) && (bilangan % 5 == 0))){
-            return true;
-        } else {
-            return false;
-        }
+        return (bilangan > 0) && ((bilangan % 3 == 0) && (bilangan % 5 == 0));
     }
 }

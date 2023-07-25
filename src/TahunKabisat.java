@@ -25,10 +25,6 @@ public class TahunKabisat {
 
     public static boolean cekTahunKabisat(int tahun) {
         // Memeriksa apakah tahun kabisat atau tidak
-        if ((tahun % 4 == 0) && ((tahun % 100 != 0) || (tahun % 400 == 0))) {
-            return true;
-        } else {
-            return false;
-        }
+        return (tahun % 4 == 0) && ((tahun % 100 != 0) || (tahun % 400 == 0));
     }
 }
