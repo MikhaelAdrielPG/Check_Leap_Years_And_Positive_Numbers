@@ -13,7 +13,7 @@ public class BilanganPositif {
         System.out.print("Masukkan bilangan: ");
         int bilangan = scanner.nextInt();
 
-        // Memanggil Function dan Menampilkan hasil dari pengecekkan
+        //  Menampilkan hasil dari pengecekkan
         if (cekBilanganPositif(bilangan)) {
             System.out.println("Bilangan " + bilangan + " memenuhi kondisi.");
         } else {
